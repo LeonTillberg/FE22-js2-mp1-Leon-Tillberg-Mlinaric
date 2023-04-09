@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+#score-container {
+    border: solid 2px black;
+    
+}
+
+img {
+    max-width: 100px;
+}
