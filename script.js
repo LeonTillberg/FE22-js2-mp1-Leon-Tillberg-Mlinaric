@@ -148,17 +148,25 @@ async function displayScores(data) {
 
     for (let i = 0; i < data.length; i++) {
         const div = document.createElement("div");
+        div.classList.add("div");
 
         const name = document.createElement('h3');
         name.innerText = data[i].name;
         div.appendChild(name);
+        name.classList.add("name");
 
         const score = document.createElement('h1');
         score.innerText = data[i].score;
         div.appendChild(score);
+        score.classList.add("score");
 
         scoreContainer.appendChild(div);
     }
+
+    // const title = document.createElement('h2');
+    // title.innerText = "Leaderboards:";
+    // div.appendChild(title);
+    // title.classList.add("name");
 }
 
 const reset = document.querySelector('#reset-btn');

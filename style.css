@@ -1,12 +1,100 @@
-body {
+* {
     text-align: center;
+    margin: 0px;
 }
 
-#score-container {
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sub-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.player-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input{
     border: solid 2px black;
-    
+    margin-bottom: 10px;
 }
 
-img {
-    max-width: 100px;
+.start-btn{
+    font-size: 18px;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.choose-btn{
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.points{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.score-btn{
+    font-size: 15px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.reset-btn{
+    font-size: 15px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.leaderboard{
+    border-top: solid 2px black;
+    padding-top: 6px;
+}
+
+.score-container {
+    border-top: solid 2px black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.div{
+    border: solid black 1px;
+    width: 100px;
+    padding: 5px;
+}
+
+.name{
+    font-size: 28px;
+    border-bottom: solid black 1px;
+}
+
+.score{
+    font-size: 25px;
 }
